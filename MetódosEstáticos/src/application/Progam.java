@@ -11,6 +11,8 @@ public class Progam {
 		System.out.print("Enter radius: ");
 		double radius = sc.nextDouble();
 		
+		//chamei o método pela classe Calculator passando o método circumference assim : Calculator.circumference
+		
 		double c = Calculator.circumference(radius);
 		
 		double v = Calculator.volume(radius);

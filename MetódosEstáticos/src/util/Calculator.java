@@ -2,6 +2,8 @@ package util;
 
 public class Calculator {
 	public static final double PI = 3.14159;
+	
+	//coloquei static no método
 
 	public static double circumference(double radius) {
 		return 2.0 * PI * radius;
