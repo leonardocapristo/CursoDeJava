@@ -30,13 +30,14 @@ public class Program {
 		//02 - passando direto no construtor
 		
 		Caneta c2 = new Caneta("faber castel", 0.7); // isso é um construtor personalizado
+		
 		System.out.println(c2);
 		
 		
 		//03 - alocando em variáveis e passando no construtor depois
 		
-		String testeModelo = sc.nextLine();
-		double testePonta = sc.nextDouble();
+		String testeModelo = "Cisco";
+		double testePonta = 0.9;
 		
 		Caneta c3 = new Caneta(testeModelo, testePonta);
 		
